@@ -30,6 +30,8 @@
         Console.WriteLine("Hello, World!");
         Console.WriteLine(add());
         kutas();
+        cipka<];
+        Console.WriteLine("Hello, World!");
         Console.WriteLine(substract());
 
     }
