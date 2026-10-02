@@ -1,6 +1,9 @@
 ﻿class Program
 {
-
+    public static void kutas()
+    {
+        Console.WriteLine("8===D")
+    }
     public static int add()
     {
         Console.Write("input 1: ");
@@ -17,5 +20,6 @@
     {
         Console.WriteLine("Hello, World!");
         Console.WriteLine(add());
+        kutas();
     }
 }
