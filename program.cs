@@ -1,6 +1,6 @@
-class Program
+﻿class Program
 {
-    public static void add()
+    public static void add() // zmienić na return
     {
         Console.Write("input 1: ");
         int x = int.Parse(Console.ReadLine());
