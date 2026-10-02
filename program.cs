@@ -11,6 +11,8 @@
         return x+y;
     }
 
+    //dodać funkcję Substract
+
     static void Main()
     {
         Console.WriteLine("Hello, World!");
