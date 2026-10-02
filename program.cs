@@ -13,6 +13,15 @@
         int y = int.Parse(Console.ReadLine());
         return x+y;
     }
+    public static int substract()
+    {
+        Console.Write("input 1: ");
+        int x = int.Parse(Console.ReadLine());
+        Console.WriteLine();
+        Console.Write("input 2: ");
+        int y = int.Parse(Console.ReadLine());
+        return x-y;
+    }
 
     //dodać funkcję Substract
 
@@ -21,5 +30,7 @@
         Console.WriteLine("Hello, World!");
         Console.WriteLine(add());
         kutas();
+        Console.WriteLine(substract());
+
     }
 }
