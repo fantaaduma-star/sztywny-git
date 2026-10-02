@@ -1,19 +1,18 @@
 class Program
 {
-    public static void add()
+    public static int add()
     {
         Console.Write("input 1: ");
         int x = int.Parse(Console.ReadLine());
         Console.WriteLine();
         Console.Write("input 2: ");
         int y = int.Parse(Console.ReadLine());
-        Console.WriteLine(x+y);
-        return;
+        return x+y;
     }
 
     static void Main()
     {
         Console.WriteLine("Hello, World!");
-        add();
+        Console.WriteLine(add());
     }
 }
