@@ -3,10 +3,10 @@ class Program
     public void add()
     {
         Console.Write("input 1: ");
-        int x = (int)Console.ReadLine();
+        int x = int.Parse(Console.ReadLine());
         Console.WriteLine();
         Console.Write("input 2: ");
-        int y = (int)Console.ReadLine();
+        int y = int y = (int)Console.ReadLine();
         Console.WriteLine(x+y);
         return;
     }
